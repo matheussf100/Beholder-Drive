@@ -1,2 +1,2 @@
 # Beholder-Drive
-Projeto bot trade.
+Projeto bot trade.(NodeJS, JSX, React...)

@@ -1,9 +1,11 @@
 export function doLogin(email, password){
-    if (email === 'Jooj@hotmail.com'
-    && password === '123456') {
-        return true;
-    }
-    return false;
+    return new Promise((response, reject) => {
+        if (email === 'Jooj@hotmail.com'
+        && password === '123456') {
+           response(true);
+        }
+        reject(`Invalid user and/or password!`);
+    })
 }
 
 export function doLogout(){
